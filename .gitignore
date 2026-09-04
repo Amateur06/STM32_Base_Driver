@@ -1,0 +1,27 @@
+# ---------------------- CubeMX 临时文件，不上传 ----------------------
+.mxproject
+*.ioc.backup
+
+# ---------------------- Keil MDK 编译输出、本地配置，全部忽略 ----------------------
+MDK-ARM/*.axf
+MDK-ARM/*.hex
+MDK-ARM/*.bin
+MDK-ARM/*.elf
+MDK-ARM/*.o
+MDK-ARM/*.d
+MDK-ARM/*.lst
+MDK-ARM/*.map
+MDK-ARM/*.crf
+MDK-ARM/*.dep
+MDK-ARM/*.bak
+MDK-ARM/*.uvoptx
+
+# .uvprojx 工程文件！！不要加到忽略列表！！这个是工程源码，必须上传
+
+# ---------------------- VSCode 本地配置（每个人环境不一样，不要传到仓库） ----------------------
+MDK-ARM/.vscode/
+.vscode/
+
+# ---------------------- Windows系统垃圾文件 ----------------------
+Thumbs.db
+.DS_Store
